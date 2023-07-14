@@ -48,7 +48,7 @@ export default [
     input: 'src/floor3d-card.ts',
     output: {
       dir: 'dist',
-      format: 'es',
+      format: 'es'
     },
     plugins: [...plugins],
   },
