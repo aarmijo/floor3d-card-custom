@@ -48,10 +48,14 @@ export default [
     input: 'src/floor3d-card.ts',
     output: {
       dir: 'dist',
-      format: 'es'
+      format: 'es',
+      sourcemap: true
     },
     plugins: [...plugins],
+    watch: {
+      chokidar: {
+        usePolling: true
+      }
+    }
   },
 ];
-
-

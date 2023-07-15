@@ -19,6 +19,7 @@
     "resolveJsonModule": true,
     "experimentalDecorators": true,
     "noUnusedLocals": false,
-    "strictNullChecks":false
+    "strictNullChecks":false,
+    "sourceMap": true
   }
 }

@@ -9,8 +9,7 @@ export default {
   input: ["src/floor3d-card.ts"],
   output: {
     dir: "./dist",
-    format: "es",
-    sourcemap: true
+    format: "es"
   },
   plugins: [
     resolve(),
